@@ -24,10 +24,9 @@ public class PhoneBook {
     }
 
     public List<String> get(String name) { //поулчить данные по имени
-        if(book.containsKey(name)){
+        if (book.containsKey(name)) {
             return book.get(name);
-        }else
-        {
+        } else {
             return new ArrayList<>();
         }
     }
